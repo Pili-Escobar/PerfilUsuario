@@ -1,0 +1,203 @@
+.ra_ag {
+	width: 100%;
+	height: auto;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: row;
+
+
+}
+
+.ag_contenedor {
+	width: 350px;
+	height: auto;
+	background-color: var(--FondoGris);
+	padding: 15px 8px 10px 10px;
+}
+
+.ag_cuadro1 {
+
+	width: 300px;
+	height: 700px;
+	background-color: var(--FondoGris);
+	border: grey 0.7px solid;
+	align-content: center;
+	justify-content: center;
+
+}
+
+.ag_Perfil {
+    width: 250px;
+    height: auto;
+	margin-top: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+
+}
+
+.ag_Nombre {
+	margin-top: 10px;
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 25px;
+	color: var(--LetraGris);
+}
+
+.ag_carrera {
+	margin-top: 10px;
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 14px;
+	color: var(--LetraGris);
+}
+
+.ag_Descripcion {
+
+	padding: 50px 18px;
+	font-family: sans-serif;
+	font-size: 15px;
+	color: var(--LetraGris);
+}
+
+.ag_informacion {
+
+	padding: 10px 18px;
+	font-family: sans-serif;
+	font-size: 15px;
+	color: var(--LetraGris);
+}
+
+.ra_Destacados {
+	float: right;
+	position: relative;
+	width: 100%;
+	height: 30px;
+	display: flex;
+	flex-direction: row;
+
+}
+
+.ra_Destacados h1 {
+	font-family: sans-serif;
+	margin-left: 10px;
+	margin-right: 20px;
+	color: var(--LetraGris);
+}
+
+.ra_Destacados img {
+
+	width: 20px;
+	height: 20px;
+}
+
+.ra_cuadro2 {
+	margin-left: 20px;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.ra_cajas {
+	width: 250px;
+	height: 320px;
+	background-color: aqua;
+	margin-left: 10px;
+	margin-top: 10px;
+
+}
+
+.ra_cajas img {
+	width: 250px;
+	height: 320px;
+
+
+}
+
+hr {
+	margin-top: 250px;
+	height: 1px;
+	width: 50%;
+	background-color: black;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.pe_cajaPrincipal {
+    width: 300px;
+    height: 400px;
+    background-color: #00a9aa;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  
+    margin: auto;
+    margin-top: 100px;
+  }
+  .pe_cajaImg {
+    width: 300px;
+    height: 400px;
+    background-image: url(../imgperfilusuario/arboles.png);
+    background-size: cover;
+    background-position: center;
+  
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+  }
+  .pe_cajaTexto {
+    width: 350px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: -15px;
+    left: -15px;
+  }
+  
+  .pe_cajaTexto p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+  }
+
+@media only screen and (max-width:768px) {
+
+	.g_body {
+		width: 95%;
+
+	}
+
+	.ra_ag {
+
+		flex-direction: column;
+
+	}
+
+	.ag_cuadro1 {
+
+		width: 95%;
+		height: auto;
+
+	}
+
+	.ag_contenedor {
+
+		width: 90%;
+		height: auto;
+	}
+
+	.ra_cuadro2 {
+
+		width: 95%;
+		height: auto;
+
+	}
+}
